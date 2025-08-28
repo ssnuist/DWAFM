@@ -6,7 +6,18 @@ Code for the paper “DWAFM:Dynamic Weighted Graph Structure Embedding Integrate
 - python 3.11 
 - torch 2.3.1  + cu121
 - numpy 1.26.4
-- SEED = 1 (all baseline models)
+
+## Reproducibility (all baseline models)
+
+To ensure reproducibility, we fix random seeds and configure CuDNN as follows:
+
+```python
+CFG.ENV.SEED = 1
+CFG.ENV.DETERMINISTIC = True
+CFG.ENV.CUDNN = EasyDict()
+CFG.ENV.CUDNN.ENABLED = True
+CFG.ENV.CUDNN.BENCHMARK = False
+CFG.ENV.CUDNN.DETERMINISTIC = True
 
 ## Acknowledgement
 Our work is developed based on BasicTS, and all baseline models are derived from: [https://github.com/GestaltCogTeam/BasicTS](https://github.com/GestaltCogTeam/BasicTS)
