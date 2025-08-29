@@ -2,9 +2,6 @@
 
 Code for the paper “DWAFM:Dynamic Weighted Graph Structure Embedding Integrated with Attention and Frequency-Domain MLPs for Traffic Forecasting”，which has been submitted to *IEEE Signal Processing Letters (SPL)* and is currently under review.  
 
-## Acknowledgement
-Our work is developed based on BasicTS, and all baseline models are derived from: [https://github.com/GestaltCogTeam/BasicTS](https://github.com/GestaltCogTeam/BasicTS)
-
 ## Reproducibility (all baseline models)
 
 ### Environment
@@ -22,4 +19,5 @@ CFG.ENV.CUDNN.ENABLED = True
 CFG.ENV.CUDNN.BENCHMARK = False
 CFG.ENV.CUDNN.DETERMINISTIC = True
 
-
+## Acknowledgement
+Our work is developed based on BasicTS, and all baseline models are derived from: [https://github.com/GestaltCogTeam/BasicTS](https://github.com/GestaltCogTeam/BasicTS)
