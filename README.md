@@ -1,6 +1,6 @@
 # DWAFM
 
-Code for the paper “DWAFM:Dynamic Weighted Graph Structure Embedding Integrated with Attention and Frequency-Domain MLPs for Traffic Forecasting”，which has been submitted to *IEEE Signal Processing Letters (SPL)* and is currently under review.  
+The letter “DWAFM:Dynamic Weighted Graph Structure Embedding Integrated with Attention and Frequency-Domain MLPs for Traffic Forecasting”，which has been submitted to *IEEE Signal Processing Letters (SPL)* and is currently under review.  
 
 ## Reproducibility (all baseline models)
 
